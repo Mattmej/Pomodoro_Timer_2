@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.testbox {
+  color: white;
+  background-color: blue;
+}
