@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Testbox from './Components/Testbox';
+import PageHeader from './Components/PageHeader';
 
 // Needed for react-bootstrap to work.
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -40,7 +41,13 @@ class App extends Component {
           testboxClass='testbox'
           testboxText='Hello World!'
         /> */}
-        <Jumbotron>Hello World</Jumbotron>
+        <PageHeader 
+          headerColor='bg-success'
+          textColor='text-white'
+          headerText='Pomodoro Timer'
+          headerSubtext='Lorem'
+        />
+        
       </div>
     )
   }
